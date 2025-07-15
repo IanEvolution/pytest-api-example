@@ -41,10 +41,16 @@ pytest -v --html=report.html
 * It is not expected that you complete every task, however, please give your best effort 
 * You will be scored based on your ability to complete the following tasks:
 
-- [ ] Install and setup this repository on your personal computer
+- [DONE] Install and setup this repository on your personal computer
 - [ ] Complete the automation tasks listed below
 
 ### Tasks
-- [ ] Extend and fix the 3 tests from [test_pet.py](test_pet.py#1). There are TODO instructions for each test listed in the file
+- [DONE] Extend and fix the 3 tests from [test_pet.py](test_pet.py#1). There are TODO instructions for each test listed in the file
 - [ ] Create the PATCH test for [test_store.py](test_store.py#1). There are TODO instructions for test along with optional tasks
-- [ ] Take note of any bugs you may have found
+- [DONE] Take note of any bugs you may have found\
+    - 0 is an ID (might not be a bug but i dont think its normal)
+    - 'name' was listed as an interger in the schemas.py not sure if was apart of the test but i changed it to a string 
+    - 
+
+
+    # pytest pytest-api-example/test_store.py -v --html=report.html

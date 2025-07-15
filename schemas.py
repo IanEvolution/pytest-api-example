@@ -6,7 +6,8 @@ pet = {
             "type": "integer"
         },
         "name": {
-            "type": "integer"
+            # not sure if this was apart of the test but name was an interger? i changed it to string
+            "type": "string"
         },
         "type": {
             "type": "string",
